@@ -1,0 +1,26 @@
+h1
+{color:red;
+background-color:aqua;}
+
+p
+{color:rgb(255,44,16);
+background-color:pink;}
+
+li
+{
+  color:#2596be;
+  background-color:navy;
+}
+
+body{
+background:url(https://tse1.mm.bing.net/th?id=OIP.PAS7XXzvYvG9P4XXUlk7UQHaEK&pid=Api&P=0&w=300&h=169);
+background-repeat:no-repeat;
+background-size: cover;}
+div
+{
+  color:#5e5e5e;
+background-color:#150863;
+border-color:#c77671;
+border-width:thick;
+border-style:solid;
+}

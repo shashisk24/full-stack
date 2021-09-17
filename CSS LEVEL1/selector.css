@@ -1,0 +1,28 @@
+h1
+{color:red;
+background-color:yellow;}
+
+.firstdiv
+{
+color:blue;
+background:url(https://tse3.mm.bing.net/th?id=OIP.pWkZNiQIIPXVG2XPANcoVAHaEK&pid=Api&P=0&w=335&h=189);
+}
+
+.seconddiv
+{
+  color:rgb(72,6,30);
+background-color:rgba(30, 6, 72, 0.5);
+}
+
+li
+{
+  color: aqua;
+  background-color:orange;
+}
+body{
+  background-color:(253,64,28);
+}
+
+{
+  background-color: solid red;
+}

@@ -1,0 +1,49 @@
+body{
+  background-color:white;
+}
+#one{
+background-color: yellow;
+border: 10px white solid;
+
+}
+#two{
+border: 10px white solid;
+  background-color: orange;
+
+}
+#three{
+border: 10px white solid;
+  background-color: blue;
+
+
+}
+#four{
+border: 10px white solid;
+  background-color: red;
+}
+#five
+{
+border: 10px white solid;
+background-color: aqua;
+}
+td{
+
+height: 400px;
+padding: 1px;
+border-color: solid red;
+border: 80px;
+width: 50px;
+
+}
+
+h1
+{
+  padding: 20px;
+  background-color: green;
+  text-align: center;
+  color:brown;
+}
+.sk{
+  margin:auto;
+
+}

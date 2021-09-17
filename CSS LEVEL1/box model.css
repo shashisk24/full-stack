@@ -1,0 +1,23 @@
+#shashi{
+  margin: 60px 300px 70px 350px;
+  text-align: center;
+  border: 10px solid red;
+color:aqua;
+background-color: pink;
+}
+
+#kiran{
+  margin: 100px 180px 90px 350px;
+  text-align:center;
+  text-decoration-color: aqua;
+padding: 40px;
+  border: 10px solid yellow;
+  color:brown;
+  border-width:thick;
+  border-style: dotted;
+  border-color: aqua;
+  background-color: grey;
+}
+body{
+  background-color:tomato;
+}

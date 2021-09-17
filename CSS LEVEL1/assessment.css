@@ -1,0 +1,37 @@
+body{
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEX8/ZU6009VAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1
+{
+color:red;
+text-align: center;
+text-decoration-style: solid;
+text-shadow:blue;
+
+}
+p{
+  color:purple;
+
+}
+
+.one{
+  color:green;
+  text-align: right;
+  text-decoration:underline;
+  text-decoration-color:aqua;
+}
+#sk{
+  color:blue;
+  text-overflow: clip;
+  text-align: left;
+  text-decoration-style: solid;
+  text-transform: uppercase;
+}
+#ss{
+  color:brown;
+}
+.two{
+  text-align: left;
+}

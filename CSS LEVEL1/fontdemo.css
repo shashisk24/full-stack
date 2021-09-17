@@ -1,0 +1,35 @@
+body{
+  background-image: url(https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1{
+  color:red;
+  text-align: center;
+  background-color: yellow;
+  font-family: 'Dancing Script', cursive;;
+  font-size: 50px;
+
+}
+p{
+color:green;
+text-align: left;
+font-size-adjust: auto;
+font-weight: bold;
+font-size: 20px;
+background: aqua;
+font-family: 'Carter One', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Orbitron', sans-serif;
+
+}
+#one{
+  color:brown;
+  background-color:grey;
+  font-weight: 200;
+  font-size: 2em;font-style: italic;
+  font-family: 'Dancing Script', cursive;
+font-family: 'Orbitron', sans-serif;
+}
+1em=20px;
+2em=40px;
