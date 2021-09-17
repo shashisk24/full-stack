@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="forms.css">
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Besley:ital@1&display=swap" rel="stylesheet">
+  <body>
+    <div class="container" >
+      <form>
+        <div class="image">
+             <a href="http://www.google.com"><img src="data:image/png;base64,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" width=20px alt="" > </a>
+                <a href="http://www.facebook.com"> <img src="data:image/png;base64,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"width=40px alt="">  </a>
+                    <a href="http://www.gmail.com"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAAyVBMVEX////09PTRQEb7+/vPQUX8/Pzv7+/RO0H18/XUaW/3/f/MMDfTNj/2+vrcl5zPLDXr3uHn6+j08/bQLTnRQUnz9fPz9/nGO0Hs8/LSPUbm5ubr7Ozm6ubs0NLRoaLy4+THV17LIjDMRU3dvr/HMzzIS1XDJi/eqqvShYnGHSjQcHfQTVbeoKLOP0zMaW317O3gvL/Sf4K/OkHr2trbdXrBXWLcyMndpKfVra7HNEDXurrf29vNWWHOkpXSwMDXzMvMio3tycvbg4fU4pF7AAAFOklEQVR4nO2b6XaqShBGBQeQQQIoCGqMJmYwRqPeTEfPyfD+D3UbkWi3GhWzlqvbb/9NZFHbqurqBjMZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA0jXPJrEiHYxYaxw4lJc2Llts+Mw9XoF1etTrjY4eThvG1IstK60Zz1EMEqKp3a5EL3XGYCllfnmF11UNSQc2e3evRdYKrwbFD2pueFTuQjYeGltZARc3fWMr8OreZfDZ/7LD2oiMnKFYvbSaYha4blMvxdfxMNps9dlj7oLryAr1fMNUUC4TWeDAWV7EGeSKBo0xQ9SUHsuJ/7l8Pplmyli/CnYMB5YDUw9/96qEimc0nSsHcAUcS6DwguBeDvSxoj1eGvM4BPy1hcO0zEhT9Utt1UqiYlWGL+XzumjcHqu6PmCBk63bXTNDGbTaPZD9xwI0EVc/5I1/O0RKmTVPanguedtMKWAMj2QqzWa4kRP0gN1qth0fN+1mAGg0FK0kwIkllhRJ/DuJbZ+th2+isPftMM5T9mUzrjEsH0d3n6HrQ78c/SHA8r9RSVutAXnbAy+qYrI3lkc+EFOg3myWY4ZRJAkVOKoo4kLh0QL7FbpuxYA299U3BIUOBQndD97+nIMe9A6M06VM9rhwY7bX1QIYCnTYQuC/VfrJnss5UPh3kckbJDF8sOhUU/UaTHLYZju+ZOjA6zwWtmHz02wFnPTF2INWe23R4gdWvMKmgvVzTBkjNTExHGAdSddK16DRXrpbrwfEGfWYoUK5ea1GLEMaBVLHPXaYeWr3MohU03pg60C/eq6RaVIEckFR4vjfKdK4/Debrg1m6C6g0CYwPW4pOXcRyQOphSB8IyIY/O2o0mxfMH5SHP9W4ZVIOHO4dSJXqq8KMCq2e6UVDAb25svqTpEgEy4MoFd47TNm7T80h0y0DvRdWxHWgeiGphzIdMZMaRudfdXH+SjmQRHBAqL3mFHoXxSTGcLJ8Ai2kA6/6Pl05HvhGeXutUYcsQjoghLfWBgX69L1K/6+gDpw168M8yo+6KjnOCTggs091MrXKZcaAUv5nSyyiOoiw/7qMA7c7kVafx4nsQKpe0ltJ5TxkN9PCO5AKy0cr0VDgnJ6DqB6M+YSoDycbjtxFdyDV/sxOjhT5vLbpybzwDpzapOuSLQM7FJyOA8cpFGph7+1jIklre8EJOCgQanb4bkvsYHQqDpzIQM22V8eik3EwU2DbYe1nBSI7iBWE4RYDAjuIOkHBrm9NAnEdROsBUWDXC9sVCOrAKcxbwS4KhHQwM0AU1HeoA1EdFOIlcVcFAjpw4vWgvn09ENbBvA7sXZOAduAK8HzBmdfBLkuiqA6S4Xin9UBIB0kr2CcJWAcOZ+/iWLQDZ78lcb0DTt/JmjuId4n1/epgxQHP72QlG+V9k0Ba/9yZSwfzXpBCAeWgydl7qplOfOu5MnEQL4p71wHtIGhnZw64+XFbPlPSvx14MwdpDCw5KBu32tzBsYPblXz2jXaQTsGSA3fgcVYKmUzjLrr5nDxzkNLAwoFy96lluXOQGd+3DEVRrJK36dB4F7QiuYhhtRsaX4tCwudXsVicvlBnKJGPjSfpazC/ptPi16NqmvxlwRLxzadNBFMjmMlPWPh0kE/uPq0Fx/kWwKuChYN4ZTsILhVkDot5hWOHk47fiz9POHY0KTkw/RcGjh3IQfyKhWMHcTD5gzl2BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Ff5H40rgfC55ZbSAAAAAElFTkSuQmCC" width=30px alt="">  </a>
+        </div>
+
+
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text ">We'll never share your email with anyone else.</small>
+        </div>
+          <div class="form-group">
+
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <small id="emailHelp" class="form-text ">password shoukd be 8-20character, one uppercase,one specialcase</small>
+            <br>
+
+        </div>
+
+          <br>
+           <label for="exampleFormControlSelect2">DOB</label>
+        <input type="datetime-local" name="" value="">
+        <br>
+        <div class="form-group">
+          <br>
+         <label for="exampleFormControlSelect2">Languages Known</label>
+         <select multiple class="form-control" id="exampleFormControlSelect2">
+           <option>KANNADA</option>
+           <option>ENGLISH</option>
+           <option>HINDI</option>
+           <option>TAMIL</option>
+           <option>TELUGU</option>
+         </select>
+         <label for="exampleFormControlSelect2">SEX:</label>
+         <label for="">MALE</label>
+         <input type="radio" name="S1" value="MALE">
+         <label for="">FEMALE</label>
+         <input type="radio" name="S1" value="FEMALE">
+<br>
+         <label for="exampleFormControlSelect2">ARE U 18 YEAR OLD</label>
+         <input type="checkbox" name="" value="">
+       </div>
+       <div class="dropdown">
+         <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Dropdown button
+         </button>
+         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+           <a class="dropdown-item" href="#">Action</a>
+           <a class="dropdown-item" href="#">Another action</a>
+           <a class="dropdown-item" href="#">Something else here</a>
+         </div>
+       </div>
+<br>
+        <label for="exampleFormControlFile1">HOBBIES</label>
+        <select class="" name="">
+          <option value="">EATING</option>
+            <option value="">WATCHING MOVIES</option>
+              <option value="">LEARNING</option>
+                <option value="">ROAMING</option>
+        </select>
+<br>
+       <label for="exampleFormControlFile1">FEEDBACK</label>
+       <br>
+       <textarea name="" rows="3" cols="80"></textarea>
+         <div class="form-group">
+           <label for="exampleFormControlFile1">SELECT DOCUMENT</label>
+           <input type="file" class="form-control-file" id="exampleFormControlFile1">
+         </div>
+
+
+
+        <button type="submit" class="btn btn-primary">REGISTER</button>
+        <button type="submit" class="btn btn-secondary">reset</button>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
